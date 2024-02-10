@@ -2,7 +2,7 @@
 
 # youtube-snapper
 
-A simple and intuitive youtube picture snapper and video clipper
+A simple and intuitive youtube picture snapper and video clipper.
 
 ## Index
 
