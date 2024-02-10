@@ -37,10 +37,10 @@ const video = new YoutubeClient(<YoutubeURL>, <YTDLOptions>);
 
 ### Client#snap
 
-| options  | type   | default                | description                             |
-| -------- | ------ | ---------------------- | --------------------------------------- |
-| dirname  | string | './snaps'              | The location of where the file is saved |
-| filename | string | 'SNAP-<TIMESTAMP>.png' | The base name of the file being saved   |
+| options  | type   | default                 | description                             |
+| -------- | ------ | ----------------------- | --------------------------------------- |
+| dirname  | string | './snaps'               | The location of where the file is saved |
+| filename | string | 'SNAP-\<TIMESTAMP>.png' | The base name of the file being saved   |
 
 You can take as many pictures as there is seconds in a video (I think) with the following snippet:
 
@@ -89,10 +89,10 @@ const response = await video.snap(
 
 ### Client#clip
 
-| options  | type   | default                | description                             |
-| -------- | ------ | ---------------------- | --------------------------------------- |
-| dirname  | string | './clips'              | The location of where the file is saved |
-| filename | string | 'CLIP-<TIMESTAMP>.mp4' | The base name of the file being saved   |
+| options  | type   | default                 | description                             |
+| -------- | ------ | ----------------------- | --------------------------------------- |
+| dirname  | string | './clips'               | The location of where the file is saved |
+| filename | string | 'CLIP-\<TIMESTAMP>.mp4' | The base name of the file being saved   |
 
 This method allows you to clip certain parts of videos. You can also clip the entire video if that's what you want. There is one small issue, currently clips are saved audioless, expect this to change in the future.
 

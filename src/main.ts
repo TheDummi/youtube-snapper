@@ -1,3 +1,5 @@
 /** @format */
 
-export * from './client/YoutubeClient.js';
+import YoutubeClient from './client/YoutubeClient.js';
+
+export default YoutubeClient;
