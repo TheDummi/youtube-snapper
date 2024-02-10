@@ -1,0 +1,11 @@
+# . Environment
+*.mp4
+*.mp3
+*.png
+
+# * Node
+node_modules
+package-lock.json
+
+# ? Typescript
+dist

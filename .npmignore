@@ -1,0 +1,18 @@
+# . Environment
+docs
+*.md
+test
+
+# * Node
+node_modules
+package-lock.json
+
+# ! Config
+.gitignore
+.gitattributes
+.github
+.prettierrc
+
+# ? TypeScript
+tsconfig.json
+src

@@ -1,0 +1,30 @@
+{
+	"name": "youtube-snapper",
+	"version": "1.0.0",
+	"description": "A youtube screenshot snapper and video clipper",
+	"main": "dist/main.js",
+	"type": "module",
+	"scripts": {
+		"test": "npm i && start tsc -w && nodemon test/main.js"
+	},
+	"keywords": [
+		"youtube",
+		"screenshot",
+		"clip",
+		"crop",
+		"video",
+		"picture"
+	],
+	"author": "Dummi",
+	"dependencies": {
+		"fluent-ffmpeg": "^2.1.2",
+		"typescript": "^5.3.3",
+		"ytdl-core": "^4.11.5"
+	},
+	"devDependencies": {
+		"@types/fluent-ffmpeg": "^2.1.24",
+		"prettier": "^3.2.5",
+		"typescript": "^5.3.3"
+	},
+	"license": "MIT"
+}
