@@ -46,7 +46,7 @@ You can take as many pictures as there is seconds in a video (I think) with the 
 
 ```js
 const response = await video.snap(
-    [15, 30, 45, 60, 75, 90, 105, 120, 135, 150],
+    [15, 30, 45, 60, 75, 90, 105, 120, 135, 145],
     { dirname: './snaps' }
 );
 
