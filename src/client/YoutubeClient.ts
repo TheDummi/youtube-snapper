@@ -1,6 +1,6 @@
 /** @format */
 
-import ytdl, { downloadOptions } from 'ytdl-core';
+import ytdl, { downloadOptions } from '@distube/ytdl-core';
 import ffmpeg from 'fluent-ffmpeg';
 
 import { promisify } from 'util';

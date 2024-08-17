@@ -17,9 +17,9 @@
 	],
 	"author": "Dummi",
 	"dependencies": {
+		"@distube/ytdl-core": "^4.14.4",
 		"fluent-ffmpeg": "^2.1.2",
-		"typescript": "^5.3.3",
-		"ytdl-core": "^4.11.5"
+		"typescript": "^5.3.3"
 	},
 	"devDependencies": {
 		"@types/fluent-ffmpeg": "^2.1.24",
