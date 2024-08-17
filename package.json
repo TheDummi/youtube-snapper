@@ -1,6 +1,6 @@
 {
 	"name": "youtube-snapper",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"description": "A youtube screenshot snapper and video clipper",
 	"main": "dist/main.js",
 	"type": "module",
